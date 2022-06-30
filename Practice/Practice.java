@@ -1,5 +1,10 @@
 public class Practice {
     public static void main(String[] args) {
+        ModularizedPractice modPractice = new ModularizedPractice();
+
+        String dateMessage = modPractice.getCurrentDate();
+        System.out.println(dateMessage);
+
         // boolean isRaining = false;
         // boolean isCold = true;
 
