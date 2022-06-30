@@ -1,5 +1,20 @@
 public class Practice {
     public static void main(String[] args) {
+        // boolean isRaining = false;
+        // boolean isCold = true;
+
+        // if (isRaining) {
+        // System.out.println("Bring an umbrella.");
+        // }
+
+        // else if (isCold) {
+        // System.out.println("Wear a coat.");
+        // }
+
+        // else {
+        // System.out.println("Have fun!");
+        // }
+
         // String ninja = "Coding Dojo is Awesome!";
         // int length = ninja.length();
         // System.out.println("String Length is: " + length);
@@ -23,13 +38,13 @@ public class Practice {
         // String sentence = " spaces everywhere! ";
         // System.out.println(sentence.trim());
 
-        String a = "same string";
-        String b = "same string";
+        // String a = "same string";
+        // String b = "same string";
         // System.out.println(a == b);
         // true
 
-        a = new String("same letters");
-        b = new String("same letters");
+        // a = new String("same letters");
+        // b = new String("same letters");
         // System.out.println(a == b);
         // false
         // System.out.println(a.equals(b));
