@@ -1,9 +1,29 @@
+import java.util.ArrayList;
+
 public class Practice {
     public static void main(String[] args) {
-        ModularizedPractice modPractice = new ModularizedPractice();
+        // ModularizedPractice modPractice = new ModularizedPractice();
+        // ArrayListPractice arrayList = new ArrayListPractice();
+        HashMapPracice hashMap = new HashMapPracice();
 
-        String executionTime = modPractice.executionTime();
-        System.out.println(executionTime);
+        hashMap.getHashMap();
+
+        // String executionTime = modPractice.executionTime();
+        // System.out.println(executionTime);
+
+        // ArrayList<Integer> myArray = arrayList.getArray();
+        // ArrayList<Object> myArray = arrayList.getArray();
+
+        // add items to array
+        // myArray.add("Hello");
+        // myArray.add(new ArrayList<Integer>());
+
+        // getters and settings
+        // Object num = myArray.get(0);
+        // myArray.set(0, 9);
+
+        // System.out.println(myArray);
+        // System.out.println(num);
 
         // String dateMessage = modPractice.getCurrentDate();
         // System.out.println(dateMessage);
